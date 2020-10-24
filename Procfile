@@ -1,1 +1,1 @@
-web: python main.py
+web: gunicorn python new_donations:app
